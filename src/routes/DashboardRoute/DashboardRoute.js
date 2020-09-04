@@ -54,8 +54,10 @@ class DashboardRoute extends Component {
         <h2 className='language'>You are learning {this.state.language}</h2>
         <p className="score">Total correct answers: {this.state.score}</p>
         <div role="alert">{error && <p>{error}</p>}</div>
-        <h3>Words to practice</h3>
-        <div>{this.state.wordsToPractice}</div>
+          <h3>Words to practice</h3>
+        <div className='words-flex'>
+          {this.state.wordsToPractice}
+        </div>
         <Link to="/learn">
           <Button>Start practicing</Button>
         </Link>

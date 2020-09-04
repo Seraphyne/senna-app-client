@@ -23,6 +23,7 @@
 
 header{
  text-align: center;
+ margin: 20px 10px 10px 10px;
 }
 
 .right-wrong{
@@ -52,11 +53,6 @@ section{
   padding: 10px;
  }
 
- .dashbord{
-  display: flex;
-  flex-direction: column;
- }
-
  .language{
    font-weight: bolder;
    margin: 20px;
@@ -69,7 +65,7 @@ section{
   border: 1px solid #ffffff;
   border-radius: 25px;
   background-color: #24a148;
-  color: #ffffff;
+  color: #000000;
 }
 
 button{
@@ -95,13 +91,13 @@ sub-title{
   font-weight: bold;
   margin: 10px;
   padding: 30px;
-  color: #FFFACD;
+  color: #000000;
   background-color: #24a148;
   border-radius: 25px;
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: #FFFACD;
+  color: #000000;
 }
 
 .log{
@@ -118,7 +114,7 @@ a:link, a:visited, a:hover, a:active {
   font-weight: bold;
   margin: 10px;
   padding: 10px;
-  color: #FFFACD;
+  color: #000000;
   background-color: #24a148;
   border-radius: 25px;
 }
@@ -141,3 +137,53 @@ label{
   margin: 10px;
 }
 
+/* +++++++++++++++ MEDIUM MEDIAS +++++++++++++++++++ */
+@media all and (min-width: 600px) {
+
+.body{
+  margin: 20px 0 20px 0;
+}
+
+header{
+  margin: 30px 50px 20px 50px;
+}
+
+.dashboard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.words-flex{
+  display: flex;
+  max-width: 600px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li{
+  padding: 20px;
+  margin: 20px;
+
+}
+
+.word-original{
+  padding: 20px;
+}
+
+.correct-guesses, .incorrect-guesses{
+  padding: 10px;
+}
+
+}
+
+/* +++++++++++++++ BIG MEDIAS +++++++++++++++++++ */
+@media all and (min-width: 800px) {
+
+  .words-flex{
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
