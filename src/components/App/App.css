@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Sans JP', sans-serif;
+  align-items: center;
+  padding: 20px;
+  /* background-color: #FFFFE0; */
+  color: #000000;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bandeira-brasil.jpg);
+}
+
+.body{
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+header{
+ text-align: center;
+}
+
+.right-wrong{
+  margin: 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.word-original{
+  color: #000000;
+  background-color: #FFFACD;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+section{
+  text-align: center;
+  margin: 20px;
+ }
+
+ .answer-form{
+  padding: 10px;
+ }
+
+ .dashbord{
+  display: flex;
+  flex-direction: column;
+ }
+
+ .language{
+   font-weight: bolder;
+   margin: 20px;
+ }
+
+ li{ 
+  margin: 10px 10px 20px 10px;
+  padding: 10px;
+  list-style: none;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  background-color: #24a148;
+  color: #ffffff;
+}
+
+button{
+  background-color: #FFFACD;
+  color: #000000;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+sub-title{
+  text-align: justify;
+}
+
+.img{
+ width: 150px;
+ border: 2px solid #ffffff;
+ border-radius: 5px;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 30px;
+  color: #FFFACD;
+  background-color: #24a148;
+  border-radius: 25px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #FFFACD;
+}
+
+.log{
+  background-color: #24a148;
+  color: red;
+  border-radius: 25px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+
+.welcome{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  color: #FFFACD;
+  background-color: #24a148;
+  border-radius: 25px;
+}
+
+.sub-title{
+  font-size: 15px;
+  margin: 10px;
+}
+
+.word-main{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+label{
+  margin: 10px;
+}
+
+#learn-guess-input, #login-username-input, #login-password-input, #registration-name-input, #registration-username-input, #registration-password-input{
+  margin: 10px;
+}
+
