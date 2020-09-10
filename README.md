@@ -30,10 +30,10 @@ Back-End: _NodeJS | ExpressJS_
 
 ## Screenshots
 
-![Register](/components/img/register.jpg "Landing Page | Register.")
-![Login](/components/img/login.jpg "Login.")
-![Welcome](/components/img/welcome.jpg "Welcome page for logged in user.") 
-![Learning Words](/components/img/words.jpg "Displaying a specific word to translate.")
+![Register](/src/components/img/register.jpg "Landing Page | Register.")
+![Login](/src/components/img/login.jpg "Login.")
+![Welcome](/src/components/img/welcome.jpg "Welcome page for logged in user.") 
+![Learning Words](/src/components/img/words.jpg "Displaying a specific word to translate.")
 
 ## Scripts
 
