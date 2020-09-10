@@ -1,15 +1,15 @@
-#  Aprendendo Português
+#  Senna
 By Renata.
 
 ## The Project
 
-_Aprendendo Português_ is an app for learning Portuguese using the flashcard system and spaced repetition. It can be accessed in any browser, data is stored in a single file and there is no level of difficulty. You need to have an account in order to access the app. Once that is done, you can check your Dashboard daily and see your progress. Each word displayed will show how many times that word was guessed correctly and incorrectly.
+_Senna_ is an app for learning Portuguese using the flashcard system and spaced repetition. It can be accessed in any browser, data is stored in a single file and there is no level of difficulty. You need to have an account in order to access the app. Once that is done, you can check your Dashboard daily and see your progress. Each word displayed will show how many times that word was guessed correctly and incorrectly.
 
 ## Links
 
-* Live: [Aprendendo Português App](https://brave-hoover-1177ce.netlify.app/register)
+* Live: [Senna App](https://brave-hoover-1177ce.netlify.app/register)
 * Heroku: [API](https://capstone-spaced-repetition.herokuapp.com/)
-* Aprendendo Português Client: [GitHub](https://github.com/thinkful-ei-panda/spaced-repetition-minh-renata-client)
+* Senna Client: [GitHub](https://github.com/thinkful-ei-panda/spaced-repetition-minh-renata-client)
 
 ## Technology Used
 

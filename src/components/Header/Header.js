@@ -36,7 +36,7 @@ class Header extends Component {
     return (
       <header>
         <h1 className='title'>
-          <Link to="/"><em>Aprendendo Português</em></Link>
+          <Link to="/"><em>Senna</em></Link>
         </h1>
         <div>
           {/* <img className='img' src={bandeira} alt='Brazilian Flag' /> */}
