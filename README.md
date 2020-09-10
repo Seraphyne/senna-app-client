@@ -7,7 +7,7 @@ _Senna_ is an app for learning Portuguese using the flashcard system and spaced 
 
 ## Links
 
-* Live: [Senna App](https://brave-hoover-1177ce.netlify.app/register)
+* Live: [Senna App](https://thirsty-roentgen-7f7f2e.netlify.app/)
 * Heroku: [API](https://capstone-spaced-repetition.herokuapp.com/)
 * Senna Client: [GitHub](https://github.com/thinkful-ei-panda/spaced-repetition-minh-renata-client)
 
