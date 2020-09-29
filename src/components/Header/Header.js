@@ -36,11 +36,8 @@ class Header extends Component {
     return (
       <header>
         <h1 className='title'>
-          <Link to="/"><em>Senna</em></Link>
+          <Link to="/" ><em>Senna</em></Link>
         </h1>
-        <div>
-          {/* <img className='img' src={bandeira} alt='Brazilian Flag' /> */}
-        </div>
         <p className='sub-title'><em>
           Practice learning a language with the spaced repetition revision
           technique.</em>  

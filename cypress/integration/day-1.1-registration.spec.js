@@ -14,7 +14,7 @@ describe(`User story: Register an account`, function() {
   it('on first load, directs me to the registration page', () => {
     cy.visit('/')
     cy.url()
-      .should('eq', `${Cypress.config().baseUrl}/register`)
+      .should('eq', `${Cypress.config().BASE_URL}/register`)
 
     cy.get('main section').within($section => {
       cy.get('h2')
@@ -125,7 +125,7 @@ describe(`User story: Register an account`, function() {
         cy.root().submit()
         cy.wait('@postRegister')
           .url()
-          .should('eq', `${Cypress.config().baseUrl}/login`)
+          .should('eq', `${Cypress.config().BASE_URL}/login`)
       })
     })
   })

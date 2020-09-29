@@ -20,7 +20,7 @@ class LearningPage extends Component {
     const { error } = this.state;
     return (
       <section className="nextWord">
-        <div role="alert">{error && <p>{error}</p>}</div>
+        <div role="alert" className='alert'>{error && <p>{error}</p>}</div>
         <h3>Translate the word:</h3>
         <span><b>{nextWord}</b></span>
         <div>

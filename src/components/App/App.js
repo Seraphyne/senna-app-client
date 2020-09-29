@@ -25,7 +25,7 @@ export default class App extends Component {
         <div className='body'>
           <Header />
           <main>
-            {hasError && <p>There was an error! Oh no!</p>}
+            {hasError && <p className='alert'>Something went wrong!</p>}
             <Switch>
               <PrivateRoute exact path={"/"} component={DashboardRoute} />
               <PrivateRoute path={"/learn"} component={LearningRoute} />

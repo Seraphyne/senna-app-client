@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import { Input, Label } from "../Form/Form";
 import AuthApiService from "../../services/auth-api-service";
 import UserContext from "../../contexts/UserContext";
 import Button from "../Button/Button";
+import Mock from "./Mock";
 
-class LoginForm extends Component {
+class LoginForm extends React.Component {
   static defaultProps = {
     onLoginSuccess: () => {},
   };
@@ -43,8 +44,9 @@ class LoginForm extends Component {
   render() {
     const { error } = this.state;
     return (
+      <div>
       <form className="LoginForm" onSubmit={this.handleSubmit}>
-        <div role="alert">{error && <p>{error}</p>}</div>
+        <div role="alert" className='alert'>{error && <p>{error}</p>}</div>
         <div>
           <Label htmlFor="login-username-input">Username</Label>
           <Input
@@ -65,6 +67,10 @@ class LoginForm extends Component {
         </div>
         <Button type="submit">Login</Button>
       </form>
+        <div className='mockCred'>
+          <Mock />
+        </div>
+      </div>
     );
   }
 }

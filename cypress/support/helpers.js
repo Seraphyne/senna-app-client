@@ -5,7 +5,7 @@ export function makeLoginToken() {
     user_id: 123,
     name: 'Test name of user',
   }
-  return jwt.sign(loginUser, 'test-secret', {
+  return jwt.sign(loginUser, 'spaced-repetition-jwt-secret', {
     subject: 'test-username',
     expiresIn: '2m',
     algorithm: 'HS256',

@@ -53,7 +53,7 @@ class DashboardRoute extends Component {
       <section className="dashboard">
         <h2 className='language'>You are learning {this.state.language}</h2>
         <p className="score">Total correct answers: {this.state.score}</p>
-        <div role="alert">{error && <p>{error}</p>}</div>
+        <div role="alert" className='alert'>{error && <p>{error}</p>}</div>
           <h3>Words to practice</h3>
         <div className='words-flex'>
           {this.state.wordsToPractice}

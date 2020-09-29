@@ -37,7 +37,7 @@ describe(`User story: Login`, function() {
         .and('have.text', 'Already have an account?')
         .click()
         .url()
-        .should('eq', `${Cypress.config().baseUrl}/login`)
+        .should('eq', `${Cypress.config().BASE_URL}/login`)
     })
   })
 
@@ -115,7 +115,7 @@ describe(`User story: Login`, function() {
           .should('have.text', 'Incorrect username or password')
 
         cy.url()
-          .should('eq', `${Cypress.config().baseUrl}/login`)
+          .should('eq', `${Cypress.config().BASE_URL}/login`)
       })
     })
   })
@@ -185,7 +185,7 @@ describe(`User story: Login`, function() {
           })
 
         cy.url()
-          .should('eq', `${Cypress.config().baseUrl}/`)
+          .should('eq', `${Cypress.config().BASE_URL}/`)
       })
     })
 
@@ -202,7 +202,7 @@ describe(`User story: Login`, function() {
         cy.get('nav a')
           .click()
           .url()
-          .should('eq', `${Cypress.config().baseUrl}/login`)
+          .should('eq', `${Cypress.config().BASE_URL}/login`)
 
         cy.window()
           .then(win => {

@@ -14,11 +14,43 @@
   /* background-color: #FFFFE0; */
   color: #000000;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bandeira-brasil.jpg);
+  min-height:100vh;
 }
 
 .body{
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
+}
+
+.alert{
+  color: #ffffff;
+  background-color: #ae2027;
+  border-radius: 10px;
+  margin: 10px 10px 0 10px;
+}
+
+input{
+  margin-left: 10px;
+  font-size: 12pt;
+  border-radius: 10px;
+}
+
+form{
+  margin: 10px;
+}
+
+.DisplayFeedback{
+  padding: 10px;
+  margin: 10px;
+}
+
+.mockCred{
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 0 30px 0 30px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #24a148;
 }
 
 header{
@@ -70,10 +102,11 @@ section{
 
 button{
   background-color: #FFFACD;
-  color: #000000;
+  color: #24a148;
   border-radius: 5px;
   font-size: 15px;
   font-weight: bold;
+  padding: 10px;
 }
 
 sub-title{
@@ -87,11 +120,10 @@ sub-title{
 }
 
 .title{
-  font-size: 25px;
   font-weight: bold;
   margin: 10px;
   padding: 30px;
-  color: #000000;
+  color: #FFFACD;
   background-color: #24a148;
   border-radius: 25px;
 }
@@ -173,6 +205,14 @@ li{
 
 .correct-guesses, .incorrect-guesses{
   padding: 10px;
+}
+
+.alert{
+  margin: 10px 40px 0 40px;
+}
+
+.mockCred{
+  margin: 0 100px 0 100px;
 }
 
 }
