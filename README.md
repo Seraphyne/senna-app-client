@@ -1,4 +1,5 @@
-#  Senna
+# Senna
+
 By Renata D.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2b9d6c44-ce07-4abd-b4c5-31ecf9d1006c/deploy-status)](https://app.netlify.com/sites/senna-language/deploys)
@@ -9,21 +10,21 @@ _Senna_ is an app for learning Portuguese using the flashcard system and spaced 
 
 ## 📌🔗 Links:
 
-* Live: [Senna App](https://senna-language.netlify.app/)
-* Heroku: [API](https://capstone-spaced-repetition.herokuapp.com/)
-* Senna Client: [GitHub](https://github.com/Seraphyne/spaced-repetition-capstone-client)
-* Senna Server: [GitHub](https://github.com/Seraphyne/spaced-repetition-capstone-server)
+- Live: [Senna App](https://senna-language.netlify.app/)
+- Railway: [API](web-production-a853.up.railway.app)
+- Senna Client: [GitHub](https://github.com/Seraphyne/spaced-repetition-capstone-client)
+- Senna Server: [GitHub](https://github.com/Seraphyne/spaced-repetition-capstone-server)
 
 ## 📌💻 Technology Used:
 
-#### Front-End: 
+#### Front-End:
 
 ![](https://img.shields.io/badge/Code-React-informational?style=flat&logo=react&logoColor=white&color=sucess)
 ![](https://img.shields.io/badge/Code-ReactRouter-informational?style=flat&logo=react&logoColor=white&color=sucess)
 ![](https://img.shields.io/badge/Code-CSS-informational?style=flat&logo=css&logoColor=white&color=sucess)
 ![](https://img.shields.io/badge/Code-Cypress.io-informational?style=flat&logo=cypress&chait&logoColor=white&color=sucess)
 
-#### Back-End: 
+#### Back-End:
 
 ![](https://img.shields.io/badge/Code-Node-informational?style=flat&logo=node&logoColor=white&color=sucess)
 ![](https://img.shields.io/badge/Code-Express-informational?style=flat&logo=express&logoColor=white&color=sucess)
@@ -34,22 +35,20 @@ _Senna_ is an app for learning Portuguese using the flashcard system and spaced 
 
 #### Deployment:
 
-![](https://img.shields.io/badge/Heroku-informational?style=flat&logo=heroku&logoColor=white&color=sucess)
+![](https://img.shields.io/badge/Railway-informational?style=flat&logo=railway&logoColor=white&color=sucess)
 ![](https://img.shields.io/badge/Netlify-informational?style=flat&logo=netlify&logoColor=white&color=sucess)
-
 
 ## 📌📄 API Documentation:
 
-| Method | Path               | Purpose                                                        |
-| ------ | ------------------ | -------------------------------------------------------------- |
-| POST   | /api/user          | Register a new user                                            |
-| GET    | /api/language      | Get all the words the user is learning                         |
-| GET    | /api/language/head | Get the guesses the user made                                  |
-| POST   | /api/language/guess| Registers the guess the user made                              |
-| POST   | /api/auth          | Checks the authorization                                       |
-| POST   | /api/auth/token    | Checks for validation on username & password                   |
+| Method | Path                | Purpose                                      |
+| ------ | ------------------- | -------------------------------------------- |
+| POST   | /api/user           | Register a new user                          |
+| GET    | /api/language       | Get all the words the user is learning       |
+| GET    | /api/language/head  | Get the guesses the user made                |
+| POST   | /api/language/guess | Registers the guess the user made            |
+| POST   | /api/auth           | Checks the authorization                     |
+| POST   | /api/auth/token     | Checks for validation on username & password |
 
 ## 📌📇 Contact:
 
-* LinkedIn: [Contact](https://www.linkedin.com/in/renatafd/?locale=en_US)
-
+- LinkedIn: [Contact](https://www.linkedin.com/in/renatafd/?locale=en_US)
